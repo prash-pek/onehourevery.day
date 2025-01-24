@@ -4,108 +4,97 @@
     --dark: #333;
 }
 
-/* Update existing CSS with new colors */
-.hero {
-    background: linear-gradient(45deg, var(--yellow), var(--blue));
-    color: white;
-}
-
-.step {
-    background: var(--yellow);
-    border-radius: 10px;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
     color: var(--dark);
 }
 
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('wave-pattern.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--dark);
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+    color: var(--dark);
+}
+
+.tagline {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.step {
+    font-size: 1.5rem;
+    padding: 20px;
+    background: var(--yellow);
+    border-radius: 10px;
+    color: var(--dark);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+}
+
+.activity-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
 .activity-list span {
+    font-size: 1.2rem;
+    padding: 15px;
     background: var(--blue);
     color: white;
     border-radius: 8px;
     transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .activity-list span:hover {
     transform: scale(1.05);
 }
 
+.qa {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .qa h3 {
+    margin-top: 30px;
     color: var(--blue);
 }
 
-/* Base styles */
-body {
-   margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-   line-height: 1.6;
-   color: #333;
-}
-
-section {
-   padding: 100px 20px;
-   text-align: center;
-}
-
-/* Hero */
-.hero {
-   background: url('wave-pattern.svg');
-   background-size: cover;
-   height: 100vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-
-h1 {
-   font-size: 6rem;
-   margin: 0;
-}
-
-.tagline {
-   font-size: 2rem;
-   margin-top: 20px;
-}
-
-/* Steps */
-.steps {
-   display: flex;
-   justify-content: space-around;
-   max-width: 800px;
-   margin: 40px auto;
-}
-
-.step {
-   font-size: 1.5rem;
-   padding: 20px;
-}
-
-/* Activities */
-.activity-list {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-   gap: 20px;
-   max-width: 800px;
-   margin: 40px auto;
-}
-
-.activity-list span {
-   font-size: 1.2rem;
-   padding: 15px;
-}
-
-/* FAQ */
-.qa {
-   max-width: 600px;
-   margin: 0 auto;
-   text-align: left;
-}
-
-.qa h3 {
-   margin-top: 30px;
-}
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
-   h1 { font-size: 4rem; }
-   .tagline { font-size: 1.5rem; }
-   .steps { flex-direction: column; }
-   .step { margin: 10px 0; }
+    h1 { font-size: 4rem; }
+    .tagline { font-size: 1.5rem; }
+    .steps { flex-direction: column; }
+    .step { margin: 10px 0; }
 }
