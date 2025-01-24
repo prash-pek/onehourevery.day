@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="boldestGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFC107;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#4FB3E8;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="white"/>
+  <path d="M 0 300 C 200 250, 400 350, 600 300 S 1000 250, 1200 300" 
+        fill="none" 
+        stroke="url(#boldestGradient)" 
+        stroke-width="100"
+        opacity="0.7"/>
+  <path d="M 0 400 C 200 350, 400 450, 600 400 S 1000 350, 1200 400" 
+        fill="none" 
+        stroke="#FFC107" 
+        stroke-width="80"
+        opacity="0.6"/>
+  <path d="M 0 200 C 200 150, 400 250, 600 200 S 1000 150, 1200 200" 
+        fill="none" 
+        stroke="#4FB3E8" 
+        stroke-width="60"
+        opacity="0.6"/>
+</svg>
