@@ -10,6 +10,18 @@ body {
    line-height: 1.6;
    color: var(--dark);
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 100;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
 
 section {
    padding: 120px 20px;
