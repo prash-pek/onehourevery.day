@@ -17,7 +17,7 @@ section {
 }
 
 .hero {
-    background-image: url('wave-pattern.svg');
+    background-image: url('https://prash-pek.github.io/onehourevery.day/wave-pattern.svg');
     background-size: cover;
     background-position: center;
     height: 100vh;
