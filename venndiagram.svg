@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Bottom circle -->
+  <circle cx="200" cy="250" r="100" fill="#BCA4FF" opacity="0.6" stroke="#000" stroke-width="1"/>
+  <!-- Top circles -->
+  <circle cx="150" cy="150" r="100" fill="#FFC107" opacity="0.6" stroke="#000" stroke-width="1"/>
+  <circle cx="250" cy="150" r="100" fill="#4FB3E8" opacity="0.6" stroke="#000" stroke-width="1"/>
+  
+  <!-- Text positioned in non-overlapping areas -->
+  <text x="90" y="150" text-anchor="middle" fill="#333" font-size="18" font-family="Arial">boredom</text>
+  <text x="310" y="150" text-anchor="middle" fill="#333" font-size="18" font-family="Arial">presence</text>
+  <text x="200" y="330" text-anchor="middle" fill="#333" font-size="18" font-family="Arial">connection</text>
+</svg>
