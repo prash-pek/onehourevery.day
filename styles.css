@@ -5,10 +5,12 @@
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.6;
-  color: var(--dark);
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+   line-height: 1.6;
+   color: var(--dark);
+   background-image: url('https://prash-pek.github.io/onehourevery.day/dots-bg.svg');
+   background-attachment: fixed;
 }
 
 .navbar {
