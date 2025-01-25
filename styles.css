@@ -11,28 +11,29 @@ body {
    color: var(--dark);
 }
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    z-index: 100;
-    background: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding: 20px 40px;
+   z-index: 100;
+   background: white;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .cta {
-    background: var(--blue);
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: transform 0.2s;
+   background: var(--blue);
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 8px;
+   font-size: 0.9rem;
+   cursor: pointer;
+   transition: transform 0.2s;
+   margin-left: auto;
 }
 
 .cta:hover {
@@ -40,7 +41,7 @@ body {
 }
 
 .logo {
-   height: 80px;
+   height: 60px;
    width: auto;
 }
 
