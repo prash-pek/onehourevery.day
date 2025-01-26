@@ -29,11 +29,11 @@ body {
 
 .menu-btn {
     font-size: 24px;
-    background: var(--blue);
+    background: transparent;
     border: none;
     cursor: pointer;
     margin-left: auto;
-    color: white;
+    color: var(--blue);
 }
 
 .menu-overlay {
