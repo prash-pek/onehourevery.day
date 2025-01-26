@@ -144,6 +144,31 @@ h1 {
    background: var(--blue);
 }
 
+.split-section {
+    display: flex;
+    padding: 120px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-half, .right-half {
+    flex: 1;
+    padding: 20px;
+}
+
+.venn-diagram {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .split-section {
+        flex-direction: column;
+    }
+}
+
 .qa {
   max-width: 600px;
   margin: 0 auto;
