@@ -29,10 +29,11 @@ body {
 
 .menu-btn {
     font-size: 24px;
-    background: none;
+    background: var(--blue);
     border: none;
     cursor: pointer;
-    color: var(--dark);
+    margin-left: auto;
+    color: white;
 }
 
 .menu-overlay {
@@ -87,6 +88,9 @@ body {
   transition: transform 0.2s;
   margin-left: auto;
   text-decoration: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .cta:hover {
