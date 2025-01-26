@@ -85,12 +85,10 @@ body {
   border-radius: 8px;
   font-size: 0.9rem;
   cursor: pointer;
-  transition: transform 0.2s;
   margin-left: auto;
   text-decoration: none;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
 }
 
 .cta:hover {
