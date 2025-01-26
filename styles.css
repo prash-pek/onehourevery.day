@@ -94,7 +94,7 @@ body {
 }
 
 .cta:hover {
-   transform: translateY(-2px);
+   transform: translateZ(-.5px);
 }
 
 .logo {
